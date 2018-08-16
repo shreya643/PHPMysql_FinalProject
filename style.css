@@ -1,0 +1,16 @@
+.nav-side-menu{ background-color:#abdde5; position: fixed;top: 0px; width: 200px; height: 100%; color: #e1ffff;overflow-y: hidden; background-size:cover;}
+.navbar-brand{padding: 15px; }
+.navbar-nav ul{padding: 10px 0;}
+.nav-side-menu li a {padding: 5px 0; width: 100%; height: 20px; font-size: 15px;}
+.form-group{padding:0 10px 10px; top :5px; }
+.form-horizontal{background-color:#abdde5;align-self: center; }
+.navbar-top{background-color:#abdde5; align-items:left;}
+#home{background-color: #c6c8ca;}
+.btn-default{ background-color: #c6c8ca; color: #0c5460}
+.author.article{align-content: left; padding:1px;font-size: 18px; }
+.date{align-content: right;padding: 1px; font-size: 10px ; }
+.card-header{font-size: 30px;}
+#main_nav{font-size: 15px; padding:0}
+p{font-size: medium;}
+#box{ background-color: #abdde5; padding:1%; margin: 5%}
+.article_fill{margin: 5%}
