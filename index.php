@@ -129,23 +129,23 @@ if (isset($_POST['login_user'])) {
                     <form  method="post" class="form-horizontal" action="index.php" >
                     <div class="form-group">
                         <label  for="Name">Username:</label>
-                        <input type="text" class="form-control" name="name" placeholder="Enter username">
+                        <input type="text" class="form-control" name="name" placeholder="Enter username" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control" name="email" placeholder="Enter email" >
+                        <input type="email" class="form-control" name="email" placeholder="Enter email" required >
 
                     </div>
                     <div class="form-group">
                         <label for="email">Password:</label>
 
-                        <input type="password" class="form-control" name="password1" placeholder="Enter password">
+                        <input type="password" class="form-control" name="password1" placeholder="Enter password" required>
 
                     </div>
                         <div class="form-group">
                             <label for="email">Re-enter Password:</label>
 
-                            <input type="password" class="form-control" name="password2" placeholder="Enter password">
+                            <input type="password" class="form-control" name="password2" placeholder="Enter password" required>
 
                         </div>
                         <div class="form-group">
@@ -165,11 +165,11 @@ if (isset($_POST['login_user'])) {
                     <form method="post" class="form-horizontal" action="index.php">
                         <div class="form-group">
                             <label for="email">Username:</label>
-                            <input type="text" class="form-control" id="name" placeholder="Username" name ="name"/>
+                            <input type="text" class="form-control" id="name" placeholder="Username" name ="name" required/>
                         </div>
                         <div class="form-group">
                             <label for="pwd">Password:</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password" name ="password1"/>
+                            <input type="password" class="form-control" id="password" placeholder="Password" name ="password1" required/>
                         </div>
                         <div class="form-group">
                             <button type="Submit" class="btn btn-default" name="login_user">Submit</button>
